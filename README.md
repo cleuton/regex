@@ -57,14 +57,14 @@ public class RegexExample {
     public static void main(String[] args) {
         String text = "Hello, World!";
         
-        // Find all words in a text
+        // Encontre todas as palavras em um texto
         Pattern pattern = Pattern.compile("\\w+");
         Matcher matcher = pattern.matcher(text);
         
         while (matcher.find()) {
             System.out.println(matcher.group());
         }
-        // Output: Hello
+        // Saída: Hello
         //         World
     }
 }
@@ -73,16 +73,17 @@ public class RegexExample {
 ## Padrões com combinações
 
 Vamos pensar em padrões mais complexos. Que tal validar um **email**? Como seria isso? Como podem ser os emails? 
-
+```
 - fulano@teste.com
 - fulano.detal@mail.teste.com.br
 - c.wee.232@t.r.g.c
 - fulano_de_tal@teste-mail.com
 - +cleuton@teste.com
 - cicrano@t.c
+```
 
 E o que seriam emails inválidos?
-
+```
 - beltrano
 - 1.2.3.4
 - beltrano@teste
@@ -94,6 +95,7 @@ E o que seriam emails inválidos?
 - cicrano@.t.g
 - cicrano@teste#r.com
 - "  c@t.com" (tem espaço no início do string)
+```
 
 Então o email tem 3 partes com regras próprias: 
 1. Nome: Um ou mais caractere alfabético ou numérico incluindo: ".", "+", "-" e "_", mas não pode ter caracteres especiais ou whitespace (branco, CR, LF).
