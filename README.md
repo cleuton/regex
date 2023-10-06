@@ -318,7 +318,7 @@ Enter an email address (or 'exit' to quit): fulano.detal@mail.teste.com.br.
 This is NOT a valid email address.
 ```
 
-No arquivo [**email_validator.py**](./python/email_validator.py) você tem a implementação **Python** desse validador de email, e no arquivo [**EmailValidator.java**](./java/EmailValidator.java) tem a versão **Java**.
+No arquivo [**email_validator.py**](https://github.com/cleuton/regex/blob/main/python/email_validator.py) você tem a implementação **Python** desse validador de email, e no arquivo [**EmailValidator.java**](https://github.com/cleuton/regex/blob/main/java/EmailValidator.java) tem a versão **Java**.
 
 ## Dicas para iniciantes:
 
