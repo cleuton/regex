@@ -13,7 +13,7 @@ Por que usar Regex? Regex é usado na programação para:
 - Validar se uma string corresponde a um padrão (como verificar se uma entrada é um email válido).
 
 ## Padrões Regex básicos:
-
+```
  . : Corresponde a qualquer caractere, exceto uma nova linha.
 \d : Corresponde a qualquer dígito (0-9).
 \D: Corresponde a qualquer não dígito.
@@ -23,15 +23,17 @@ Por que usar Regex? Regex é usado na programação para:
 \S : Corresponde a qualquer espaço que não seja em branco.
  ^ : Corresponde ao início de uma string.
  $ : corresponde ao final de uma string.
+```
 
 ## Quantificadores:
-
+```
 - *: 0 ou mais
 - +: 1 ou mais
 - ? : 0 ou 1
 - {n}: Exatamente n vezes
 - {n,}: n ou mais vezes
 - {n,m}: entre n e m vezes
+```
 
 ## Exemplo de Python:
 
